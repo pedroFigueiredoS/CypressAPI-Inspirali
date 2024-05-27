@@ -65,3 +65,11 @@ describe('Appointment API Tests', () => {
   });
 });
 Este teste verifica se a API retorna status 200, se a resposta contém um campo success verdadeiro, se existe a propriedade data na resposta, se hasMoreProcess é verdadeiro e se academicProcessSelectList é um array não vazio.
+
+// Banco de dados
+
+npm install pg
+
+// Env
+
+npm install dotenv
